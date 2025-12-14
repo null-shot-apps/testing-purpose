@@ -17,8 +17,9 @@ export default function SpinningCube() {
   return (
     <mesh ref={meshRef}>
       <boxGeometry args={[2, 2, 2]} />
-      <meshStandardMaterial color="#4f46e5" />
+      <meshStandardMaterial color="#ef4444" />
     </mesh>
   );
 }
+
 
